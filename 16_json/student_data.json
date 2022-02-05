@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Ahmed Raza",
+        "age": "23",
+        "country": "Karachi",
+        "religion": "Islam"
+    },
+    {
+        "name": "John Cena",
+        "age": "50",
+        "country": "United States",
+        "religion": "Christian"
+    },
+    {
+        "name": "Rock",
+        "age": "30",
+        "country": "New York",
+        "religion": "Christian"
+    },
+    {
+        "name": "Jinder Mahal",
+        "age": "35",
+        "country": "India",
+        "religion": "Hindu"
+    },
+    {
+        "name": "Salman Khan",
+        "age": "55",
+        "country": "India",
+        "religion": "Atheist"
+    }
+]
