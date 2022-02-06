@@ -20,8 +20,11 @@ console.log('gender2: ', gender2);
 console.log('city2: ', city2);
 
 // Example # 2
-let user3 = ['apple', , 'almond'];
-let [fruit, vegetable = 'carrot', dryFruit] = user3;
+let user3 = ['apple', , 'almond', ['Olper', 'Limo Pani']];
+let [fruit, vegetable = 'carrot', dryFruit, [milk, juice]] = user3;
 console.log('fruit: ', fruit);
 console.log('vegetable: ', vegetable);
 console.log('dryFruit: ', dryFruit);
+console.log('milk: ', milk);
+console.log('juice', juice);
+
