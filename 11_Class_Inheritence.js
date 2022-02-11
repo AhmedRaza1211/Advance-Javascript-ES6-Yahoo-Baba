@@ -97,7 +97,7 @@ class childs extends familyMember {
         let drink = 'Day Fresh';
         let extras = fastFood + drink;
 
-        document.write(<h2> </h2>)
+        document.write(<h2> Niece Rewards </h2>)
     }
 }
 
