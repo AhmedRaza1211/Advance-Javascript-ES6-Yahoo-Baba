@@ -79,27 +79,26 @@ class familyMember {
     }
 
     details() {
-        document.write(`<h2> Niece Details </h2>
-                        Name: ${this.name} <br/>
-                        Age: ${this.age} <br/>
-                        Number: ${this.number} <br/>`);
+        return `Niece Details
+                        Name: ${this.name}
+                        Age: ${this.age}
+                        Number: ${this.number}`;
     }
 
 
 }
 
 class childs extends familyMember {
-    // constructor() {
-    //     super()
-    // }
-    details() {
-        let fastFood = 'Pizza';
-        let drink = 'Day Fresh';
-        let extras = fastFood + drink;
+    constructor(name, age, number) {
+        super(name, age, number)
+        this.extras = 'Pizza and Pepsi';
+    }
 
-        document.write(<h2> Niece Rewards </h2>)
+    more() {
+        console.log(`${super.details()}
+                    Extras: ${this.extras}`);
     }
 }
 
 let s1 = new childs('Zainab', '2 years', 'Elder')
-s1.details();
+s1.more();
